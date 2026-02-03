@@ -361,10 +361,10 @@
         <h1>PEHub Story Cycler</h1>
         <div class="controls">
             <span class="story-counter" id="storyCounter">Loading stories...</span>
-            <button id="prevBtn" title="Previous story">‚Üê Prev</button>
-            <button id="playPauseBtn" class="active" title="Play/Pause">‚è∏ Pause</button>
-            <button id="nextBtn" title="Next story">Next ‚Üí</button>
-            <button id="fullscreenBtn" title="Toggle fullscreen">‚õ∂ Fullscreen</button>
+            <button id="prevBtn" title="Previous story">Prev</button>
+            <button id="playPauseBtn" class="active" title="Play/Pause">Pause</button>
+            <button id="nextBtn" title="Next story">Next</button>
+            <button id="fullscreenBtn" title="Toggle fullscreen">Fullscreen</button>
         </div>
     </div>
 
@@ -393,12 +393,12 @@
             <div class="overlay-counter" id="overlayCounter">Story 1 of 15</div>
             <div class="overlay-title" id="overlayTitle">Loading...</div>
         </div>
-        <div class="countdown-timer" id="countdownTimer">45</div>
+        <div class="countdown-timer" id="countdownTimer">15</div>
     </div>
 
     <script>
         // Configuration
-        const DISPLAY_TIME = 45; // seconds per story
+        const DISPLAY_TIME = 15; // seconds per story
         const PEHUB_RSS_PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=https://www.pehub.com/feed/';
 
         // State
@@ -430,7 +430,7 @@
                 const data = await response.json();
 
                 if (data.status === 'ok' && data.items) {
-                    stories = data.items.slice(0, 15).map(item => ({
+                    stories = data.items.slice(0, 20).map(item => ({
                         title: item.title,
                         url: item.link,
                         date: new Date(item.pubDate).toLocaleDateString('en-US', {
@@ -515,12 +515,12 @@
                         <span class="article-category">${story.categories[0] || 'PE News'}</span>
                         <h1 class="article-title">${story.title}</h1>
                         <div class="article-meta">
-                            ${story.date} ¬∑ <a href="${story.url}" target="_blank">Read on PEHub ‚Üí</a>
+                            ${story.date} - <a href="${story.url}" target="_blank">Read on PEHub</a>
                         </div>
                     </div>
                     <div class="article-body">
                         ${content}
-                        <a href="${story.url}" target="_blank" class="article-link">Read Full Article on PEHub ‚Üí</a>
+                        <a href="${story.url}" target="_blank" class="article-link">Read Full Article on PEHub</a>
                     </div>
                 </div>
             `;
@@ -606,7 +606,7 @@
 
         function togglePlayPause() {
             isPlaying = !isPlaying;
-            playPauseBtn.textContent = isPlaying ? '‚è∏ Pause' : '‚ñ∂ Play';
+            playPauseBtn.textContent = isPlaying ? 'Pause' : 'Play';
             playPauseBtn.classList.toggle('active', isPlaying);
         }
 
