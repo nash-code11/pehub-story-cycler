@@ -98,5 +98,566 @@
         }
 
         .story-item.active {
+            background: #EEFB87;
+            color: #1F242F;
+        }
 
-            
+        .story-item.viewed {
+            opacity: 0.6;
+        }
+
+        .story-item.active.viewed {
+            opacity: 1;
+        }
+
+        .story-title {
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 5px;
+        }
+
+        .story-meta {
+            font-size: 12px;
+            color: #888;
+        }
+
+        .story-item.active .story-meta {
+            color: rgba(31, 36, 47, 0.7);
+        }
+
+        .story-item.active .story-title {
+            color: #1F242F;
+        }
+
+        .content-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: #f8f9fa;
+            overflow: hidden;
+        }
+
+        .progress-bar-container {
+            height: 4px;
+            background: #2a303d;
+            flex-shrink: 0;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: #EEFB87;
+            width: 0%;
+            transition: width 1s linear;
+        }
+
+        .article-container {
+            flex: 1;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            background: white;
+            min-height: 100%;
+        }
+
+        .article-header {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: #EEFB87;
+            color: #1F242F;
+            padding: 4px 12px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .article-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1F242F;
+            line-height: 1.3;
+            margin-bottom: 15px;
+        }
+
+        .article-meta {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .article-meta a {
+            color: #1F242F;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .article-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .article-body {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .article-body p {
+            margin-bottom: 20px;
+        }
+
+        .article-body img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .article-body a {
+            color: #1F242F;
+            font-weight: 600;
+        }
+
+        .article-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background: #EEFB87;
+            color: #1F242F;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .article-link:hover {
+            background: #d9e67a;
+        }
+
+        .overlay {
+            position: fixed;
+            bottom: 20px;
+            left: 340px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 15px 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .overlay-info {
+            flex: 1;
+        }
+
+        .overlay-counter {
+            font-size: 12px;
+            color: #aaa;
+            margin-bottom: 5px;
+        }
+
+        .overlay-title {
+            font-size: 16px;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 600px;
+        }
+
+        .countdown-timer {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 3px solid #EEFB87;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 20px;
+            flex-shrink: 0;
+        }
+
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #666;
+            font-size: 18px;
+            gap: 20px;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #eee;
+            border-top-color: #EEFB87;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Fullscreen mode */
+        body.fullscreen .header,
+        body.fullscreen .sidebar {
+            display: none;
+        }
+
+        body.fullscreen .content-area {
+            width: 100%;
+        }
+
+        body.fullscreen .overlay {
+            left: 20px;
+        }
+
+        body.fullscreen .article-content {
+            max-width: 900px;
+        }
+
+        @media (max-width: 900px) {
+            .sidebar {
+                width: 280px;
+            }
+            .overlay {
+                left: 300px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+            .overlay {
+                left: 20px;
+            }
+            .article-title {
+                font-size: 24px;
+            }
+            .article-body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PEHub Story Cycler</h1>
+        <div class="controls">
+            <span class="story-counter" id="storyCounter">Loading stories...</span>
+            <button id="prevBtn" title="Previous story">‚Üê Prev</button>
+            <button id="playPauseBtn" class="active" title="Play/Pause">‚è∏ Pause</button>
+            <button id="nextBtn" title="Next story">Next ‚Üí</button>
+            <button id="fullscreenBtn" title="Toggle fullscreen">‚õ∂ Fullscreen</button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="sidebar">
+            <ul class="story-list" id="storyList">
+                <!-- Stories will be populated here -->
+            </ul>
+        </div>
+
+        <div class="content-area">
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="article-container" id="articleContainer">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <div>Loading PEHub stories...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="overlay-info">
+            <div class="overlay-counter" id="overlayCounter">Story 1 of 15</div>
+            <div class="overlay-title" id="overlayTitle">Loading...</div>
+        </div>
+        <div class="countdown-timer" id="countdownTimer">45</div>
+    </div>
+
+    <script>
+        // Configuration
+        const DISPLAY_TIME = 45; // seconds per story
+        const PEHUB_RSS_PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=https://www.pehub.com/feed/';
+
+        // State
+        let stories = [];
+        let currentIndex = 0;
+        let isPlaying = true;
+        let countdown = DISPLAY_TIME;
+        let countdownInterval = null;
+        let scrollInterval = null;
+        let viewedStories = new Set();
+
+        // DOM Elements
+        const storyList = document.getElementById('storyList');
+        const articleContainer = document.getElementById('articleContainer');
+        const progressBar = document.getElementById('progressBar');
+        const overlayCounter = document.getElementById('overlayCounter');
+        const overlayTitle = document.getElementById('overlayTitle');
+        const countdownTimer = document.getElementById('countdownTimer');
+        const storyCounter = document.getElementById('storyCounter');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const fullscreenBtn = document.getElementById('fullscreenBtn');
+
+        // Fetch stories from PEHub RSS feed
+        async function fetchStories() {
+            try {
+                const response = await fetch(PEHUB_RSS_PROXY);
+                const data = await response.json();
+
+                if (data.status === 'ok' && data.items) {
+                    stories = data.items.slice(0, 15).map(item => ({
+                        title: item.title,
+                        url: item.link,
+                        date: new Date(item.pubDate).toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        }),
+                        content: item.content || item.description,
+                        description: item.description,
+                        thumbnail: item.thumbnail || extractFirstImage(item.content),
+                        categories: item.categories || ['PE News']
+                    }));
+
+                    renderStoryList();
+                    loadStory(0);
+                    startCycling();
+                } else {
+                    showError('Could not load stories from PEHub feed.');
+                }
+            } catch (error) {
+                console.error('Error fetching stories:', error);
+                showError('Could not connect to PEHub feed. Please try again later.');
+            }
+        }
+
+        function extractFirstImage(html) {
+            if (!html) return null;
+            const match = html.match(/<img[^>]+src="([^">]+)"/);
+            return match ? match[1] : null;
+        }
+
+        function showError(message) {
+            articleContainer.innerHTML = `
+                <div class="article-content">
+                    <div class="article-header">
+                        <h1 class="article-title">Unable to Load Stories</h1>
+                    </div>
+                    <div class="article-body">
+                        <p>${message}</p>
+                        <p>You can still use the <a href="https://github.com/nash-code11/pehub-story-cycler">desktop app</a> for the full experience.</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderStoryList() {
+            storyList.innerHTML = stories.map((story, index) => `
+                <li class="story-item ${index === currentIndex ? 'active' : ''} ${viewedStories.has(index) ? 'viewed' : ''}"
+                    data-index="${index}"
+                    onclick="goToStory(${index})">
+                    <div class="story-title">${story.title}</div>
+                    <div class="story-meta">${story.date}</div>
+                </li>
+            `).join('');
+        }
+
+        function loadStory(index) {
+            currentIndex = index;
+            viewedStories.add(index);
+            const story = stories[index];
+
+            // Update UI
+            renderStoryList();
+            overlayCounter.textContent = `Story ${index + 1} of ${stories.length}`;
+            overlayTitle.textContent = story.title;
+            storyCounter.textContent = `Story ${index + 1} of ${stories.length}`;
+
+            // Format the content
+            let content = story.content || story.description || '';
+
+            // Clean up content
+            content = content
+                .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+                .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+                .replace(/class="[^"]*"/gi, '')
+                .replace(/style="[^"]*"/gi, '');
+
+            // Render article
+            articleContainer.innerHTML = `
+                <div class="article-content">
+                    <div class="article-header">
+                        <span class="article-category">${story.categories[0] || 'PE News'}</span>
+                        <h1 class="article-title">${story.title}</h1>
+                        <div class="article-meta">
+                            ${story.date} ¬∑ <a href="${story.url}" target="_blank">Read on PEHub ‚Üí</a>
+                        </div>
+                    </div>
+                    <div class="article-body">
+                        ${content}
+                        <a href="${story.url}" target="_blank" class="article-link">Read Full Article on PEHub ‚Üí</a>
+                    </div>
+                </div>
+            `;
+
+            // Reset scroll position
+            articleContainer.scrollTop = 0;
+
+            // Reset countdown and progress
+            countdown = DISPLAY_TIME;
+            progressBar.style.width = '0%';
+            countdownTimer.textContent = countdown;
+
+            // Start auto-scrolling
+            startAutoScroll();
+
+            // Scroll sidebar to show active item
+            const activeItem = storyList.querySelector('.story-item.active');
+            if (activeItem) {
+                activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }
+
+        function startAutoScroll() {
+            // Clear any existing scroll interval
+            if (scrollInterval) {
+                clearInterval(scrollInterval);
+            }
+
+            // Wait a moment for content to render
+            setTimeout(() => {
+                const scrollHeight = articleContainer.scrollHeight;
+                const viewportHeight = articleContainer.clientHeight;
+                const scrollDistance = scrollHeight - viewportHeight;
+
+                if (scrollDistance > 0) {
+                    const scrollPerSecond = scrollDistance / (DISPLAY_TIME - 2); // Leave 2 seconds at the end
+
+                    scrollInterval = setInterval(() => {
+                        if (isPlaying) {
+                            const currentScroll = articleContainer.scrollTop;
+                            if (currentScroll < scrollDistance) {
+                                articleContainer.scrollTop = currentScroll + (scrollPerSecond / 10);
+                            }
+                        }
+                    }, 100);
+                }
+            }, 100);
+        }
+
+        function startCycling() {
+            if (countdownInterval) {
+                clearInterval(countdownInterval);
+            }
+
+            countdownInterval = setInterval(() => {
+                if (!isPlaying) return;
+
+                countdown--;
+                countdownTimer.textContent = countdown;
+
+                const progress = ((DISPLAY_TIME - countdown) / DISPLAY_TIME) * 100;
+                progressBar.style.width = `${progress}%`;
+
+                if (countdown <= 0) {
+                    nextStory();
+                }
+            }, 1000);
+        }
+
+        function nextStory() {
+            const nextIndex = (currentIndex + 1) % stories.length;
+            loadStory(nextIndex);
+        }
+
+        function prevStory() {
+            const prevIndex = (currentIndex - 1 + stories.length) % stories.length;
+            loadStory(prevIndex);
+        }
+
+        function goToStory(index) {
+            loadStory(index);
+        }
+
+        function togglePlayPause() {
+            isPlaying = !isPlaying;
+            playPauseBtn.textContent = isPlaying ? '‚è∏ Pause' : '‚ñ∂ Play';
+            playPauseBtn.classList.toggle('active', isPlaying);
+        }
+
+        function toggleFullscreen() {
+            document.body.classList.toggle('fullscreen');
+
+            if (document.body.classList.contains('fullscreen')) {
+                if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+
+        // Event listeners
+        playPauseBtn.addEventListener('click', togglePlayPause);
+        prevBtn.addEventListener('click', prevStory);
+        nextBtn.addEventListener('click', nextStory);
+        fullscreenBtn.addEventListener('click', toggleFullscreen);
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case ' ':
+                    e.preventDefault();
+                    togglePlayPause();
+                    break;
+                case 'ArrowRight':
+                    nextStory();
+                    break;
+                case 'ArrowLeft':
+                    prevStory();
+                    break;
+                case 'f':
+                    toggleFullscreen();
+                    break;
+            }
+        });
+
+        // Exit fullscreen handler
+        document.addEventListener('fullscreenchange', () => {
+            if (!document.fullscreenElement) {
+                document.body.classList.remove('fullscreen');
+            }
+        });
+
+        // Initialize
+        fetchStories();
+    </script>
+</body>
+</html>
