@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T16:17:00+00:00",
+  "updated": "2026-11-19T23:08:11+00:00",
   "source": "https://www.privateequityinternational.com/private-equity/news-analysis/",
   "stories": [
     {
@@ -11,6 +11,28 @@
       "thumbnail": "https://media.privateequityinternational.com/uploads/2025/06/Mike-Choe.jpg",
       "categories": [
         "Exclusive"
+      ]
+    },
+    {
+      "title": "Orange County to double down on co-invest following directs success",
+      "url": "https://www.privateequityinternational.com/orange-county-to-double-down-on-co-invest-following-directs-success/",
+      "date": "November 19, 2026",
+      "readTime": "3 min read",
+      "description": "The pension's private equity portfolio delivered a 41.3% net IRR this year following SpaceX's IPO.",
+      "thumbnail": null,
+      "categories": [
+        "Investors"
+      ]
+    },
+    {
+      "title": "EnCap Flatrock targets $1.5bn for sixth midstream fund",
+      "url": "https://www.privateequityinternational.com/encap-flatrock-targets-1-5bn-for-sixth-midstream-fund/",
+      "date": "November 19, 2026",
+      "readTime": "2 min read",
+      "description": "The firm previously raised larger midstream funds, including Fund IV, which closed on $3.25bn in 2018.",
+      "thumbnail": null,
+      "categories": [
+        "Fundraising"
       ]
     },
     {
@@ -199,28 +221,6 @@
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_mg-3630-philpott-anne.jpg",
       "categories": [
         "Investors"
-      ]
-    },
-    {
-      "title": "Side Letter: Rated for growth",
-      "url": "https://www.privateequityinternational.com/side-letter-rated-for-growth/",
-      "date": "November 11, 2026",
-      "readTime": "3 min read",
-      "description": "Smaller GPs find a route into the securitization market; why tapping Asia's deep LP pockets could take more than a track record.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_gettyimages-2163584692-1.jpg",
-      "categories": [
-        "Exits"
-      ]
-    },
-    {
-      "title": "Bain Capital: 'We would never tell our teams they must invest'",
-      "url": "https://www.privateequityinternational.com/bain-we-would-never-tell-our-teams-they-must-invest/",
-      "date": "November 11, 2026",
-      "readTime": "5 min read",
-      "description": "Not 'over-indexing' in challenging vintages has enabled Bain to generate record liquidity, PE head Chris Gordon tells PEI Private Equity.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/Chris-Gordon-0015-1-1.jpg",
-      "categories": [
-        "Democratisation"
       ]
     }
   ]
