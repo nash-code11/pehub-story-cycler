@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PEHub Story Cycler</title>
+    <title>PE Story Cycler</title>
     <style>
         * {
             margin: 0;
@@ -358,7 +358,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>PEHub Story Cycler</h1>
+        <h1>PE Story Cycler</h1>
         <div class="controls">
             <span class="story-counter" id="storyCounter">Loading stories...</span>
             <button id="prevBtn" title="Previous story">Prev</button>
@@ -382,7 +382,7 @@
             <div class="article-container" id="articleContainer">
                 <div class="loading">
                     <div class="loading-spinner"></div>
-                    <div>Loading PEHub stories...</div>
+                    <div>Loading stories...</div>
                 </div>
             </div>
         </div>
@@ -399,7 +399,7 @@
     <script>
         // Configuration
         const DISPLAY_TIME = 15; // seconds per story
-        const PEHUB_RSS_PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=https://www.pehub.com/feed/';
+        const STORIES_URL = 'stories.json'; // refreshed by .github/workflows/update-stories.yml
 
         // State
         let stories = [];
@@ -423,37 +423,41 @@
         const nextBtn = document.getElementById('nextBtn');
         const fullscreenBtn = document.getElementById('fullscreenBtn');
 
-        // Fetch stories from PEHub RSS feed
+        // Fetch stories from stories.json (scraped from PEI News & Analysis)
         async function fetchStories() {
             try {
-                const response = await fetch(PEHUB_RSS_PROXY);
+                const response = await fetch(STORIES_URL + '?t=' + Date.now());
                 const data = await response.json();
 
-                if (data.status === 'ok' && data.items) {
-                    stories = data.items.slice(0, 20).map(item => ({
-                        title: item.title,
-                        url: item.link,
-                        date: new Date(item.pubDate).toLocaleDateString('en-US', {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric'
-                        }),
-                        content: item.content || item.description,
-                        description: item.description,
-                        thumbnail: item.thumbnail || extractFirstImage(item.content),
-                        categories: item.categories || ['PE News']
-                    }));
+                if (data.stories && data.stories.length) {
+                    stories = data.stories.map(item => {
+                        const thumb = item.thumbnail ? `<img src="${esc(item.thumbnail)}" alt="">` : '';
+                        const meta = item.readTime ? `<p><em>${esc(item.readTime)}</em></p>` : '';
+                        return {
+                            title: esc(item.title),
+                            url: item.url,
+                            date: item.date,
+                            content: `${thumb}<p>${esc(item.description)}</p>${meta}`,
+                            description: esc(item.description),
+                            thumbnail: item.thumbnail,
+                            categories: item.categories && item.categories.length ? item.categories : ['PE News']
+                        };
+                    });
 
                     renderStoryList();
                     loadStory(0);
                     startCycling();
                 } else {
-                    showError('Could not load stories from PEHub feed.');
+                    showError('Could not load stories.');
                 }
             } catch (error) {
                 console.error('Error fetching stories:', error);
-                showError('Could not connect to PEHub feed. Please try again later.');
+                showError('Could not load stories. Please try again later.');
             }
+        }
+
+        function esc(s) {
+            return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
         }
 
         function extractFirstImage(html) {
@@ -515,12 +519,12 @@
                         <span class="article-category">${story.categories[0] || 'PE News'}</span>
                         <h1 class="article-title">${story.title}</h1>
                         <div class="article-meta">
-                            ${story.date} - <a href="${story.url}" target="_blank">Read on PEHub</a>
+                            ${story.date} - <a href="${story.url}" target="_blank">Read on PEI</a>
                         </div>
                     </div>
                     <div class="article-body">
                         ${content}
-                        <a href="${story.url}" target="_blank" class="article-link">Read Full Article on PEHub</a>
+                        <a href="${story.url}" target="_blank" class="article-link">Read Full Article on PEI</a>
                     </div>
                 </div>
             `;
