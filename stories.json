@@ -1,7 +1,40 @@
 {
-  "updated": "2026-11-23T03:51:48+00:00",
+  "updated": "2026-11-23T13:49:17+00:00",
   "source": "https://www.privateequityinternational.com/private-equity/news-analysis/",
   "stories": [
+    {
+      "title": "Meet the LP: Keebeck Wealth Management",
+      "url": "https://www.privateequityinternational.com/meet-the-lp-keebeck-wealth-management/",
+      "date": "November 23, 2026",
+      "readTime": "3 min read",
+      "description": "The $2.5bn multi-family office has shied away from private equity’s mega-funds due to valuation and liquidity concerns, CEO Bruce K Lee tells PEI Private Equity.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/Bruce.jpg",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
+    {
+      "title": "Side Letter: COP out",
+      "url": "https://www.privateequityinternational.com/side-letter-cop-out/",
+      "date": "November 23, 2026",
+      "readTime": "3 min read",
+      "description": "Compensation, value creation and physical risk frustration came to the fore at PEI Group's Responsible Investment Forum: Europe last week.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_gettyimages-481433242.jpg",
+      "categories": [
+        "ESG"
+      ]
+    },
+    {
+      "title": "Flexstone: LPs face more 'decision-making' in PE funds",
+      "url": "https://www.privateequityinternational.com/flexstone-lps-face-more-decision-making-in-pe-funds/",
+      "date": "November 23, 2026",
+      "readTime": "4 min read",
+      "description": "Investors are paying closer attention to a GP's use of CVs and NAV financing when considering re-ups, co-CIO and managing partner Nitin Gupta tells PEI Private Equity.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/Image-Edit_-Shoulder-Touch-Up-1000-x-563-px.png",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
     {
       "title": "Riverside Co taps longtime insider Joe Manning to run Riverside Micro-Cap Fund",
       "url": "https://www.privateequityinternational.com/riverside-co-taps-longtime-insider-joe-manning-to-run-riverside-micro-cap-fund/",
@@ -186,42 +219,9 @@
       "date": "November 13, 2026",
       "readTime": "2 min read",
       "description": "Gemspring Capital Fund IV’s target is about 75% larger than its predecessor.",
-      "thumbnail": null,
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_gettyimages-481433242.jpg",
       "categories": [
         "Fundraising"
-      ]
-    },
-    {
-      "title": "Nvidia turmoil could trigger broader AI re-evaluation: Commonfund execs",
-      "url": "https://www.privateequityinternational.com/nvidia-turmoil-could-trigger-broader-ai-re-evaluation-commonfund-execs/",
-      "date": "November 12, 2026",
-      "readTime": "3 min read",
-      "description": "The expectation comes following the resignation of Nvidia's CEO Jensen Huang, who is alleged to have had an affair with a former Megaspeed executive.",
-      "thumbnail": null,
-      "categories": [
-        "News & Analysis"
-      ]
-    },
-    {
-      "title": "Queens Court secures investment from MPowered as firm shifts to committed funds",
-      "url": "https://www.privateequityinternational.com/mpowered-takes-stake-in-queens-court-as-the-firm-shifts-to-committed-funds/",
-      "date": "November 12, 2026",
-      "readTime": "3 min read",
-      "description": "‘It’s quite like going to a fight with one hand behind your back,’ said Azhar Quader, founder of Queens Court Capital, referring to investing on a deal-by-deal basis.",
-      "thumbnail": null,
-      "categories": [
-        "Fundraising"
-      ]
-    },
-    {
-      "title": "Side Letter: Shake your tail sellers",
-      "url": "https://www.privateequityinternational.com/side-letter-shake-your-tail-sellers/",
-      "date": "November 12, 2026",
-      "readTime": "3 min read",
-      "description": "Creative packaging could help LPs offload funds overstaying their welcome; why institutionalizing could give evergreens a bright new future.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_gettyimages-2206824813.jpg",
-      "categories": [
-        "Exits"
       ]
     }
   ]
