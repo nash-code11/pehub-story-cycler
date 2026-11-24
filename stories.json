@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T01:20:51+00:00",
+  "updated": "2026-11-24T11:12:51+00:00",
   "source": "https://www.privateequityinternational.com/private-equity/news-analysis/",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "readTime": "3 min read",
       "description": "The $2.5bn multi-family office has shied away from private equity’s mega-funds due to valuation and liquidity concerns, CEO Bruce K Lee tells PEI Private Equity.",
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/Bruce.jpg",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
+    {
+      "title": "Centre Lane eyes $1bn Fund VI for complex mid-market situations",
+      "url": "https://www.privateequityinternational.com/centre-lane-eyes-1bn-fund-vi-for-complex-mid-market-situations/",
+      "date": "November 24, 2026",
+      "readTime": "2 min read",
+      "description": "Centre Lane Partners VI is expected to close later this year or in early 2027, according to Plymouth County Retirement Association board documents.",
+      "thumbnail": null,
       "categories": [
         "News & Analysis"
       ]
@@ -211,17 +222,6 @@
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/NEW-OBX-HEADSHOT-IMAGE-TEMPLATE_13.jpg",
       "categories": [
         "News & Analysis"
-      ]
-    },
-    {
-      "title": "Gemspring Capital seeks $3bn for fourth fund",
-      "url": "https://www.privateequityinternational.com/gemspring-capital-seeks-3bn-for-fourth-fund/",
-      "date": "November 13, 2026",
-      "readTime": "2 min read",
-      "description": "Gemspring Capital Fund IV’s target is about 75% larger than its predecessor.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_gettyimages-481433242.jpg",
-      "categories": [
-        "Fundraising"
       ]
     }
   ]
