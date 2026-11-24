@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T11:12:51+00:00",
+  "updated": "2026-11-24T21:24:57+00:00",
   "source": "https://www.privateequityinternational.com/private-equity/news-analysis/",
   "stories": [
     {
@@ -8,9 +8,53 @@
       "date": "November 23, 2026",
       "readTime": "3 min read",
       "description": "The $2.5bn multi-family office has shied away from private equity’s mega-funds due to valuation and liquidity concerns, CEO Bruce K Lee tells PEI Private Equity.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/Bruce.jpg",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/STONE_bruce_k_lee_1024-copy.jpg",
       "categories": [
         "News & Analysis"
+      ]
+    },
+    {
+      "title": "Side Letter: Conflict's a-comin'",
+      "url": "https://www.privateequityinternational.com/side-letter-conflicts-a-comin/",
+      "date": "November 24, 2026",
+      "readTime": "3 min read",
+      "description": "Why PE may soon be gripped by antitrust anxiety; AI is becoming part and parcel of LP diligence processes.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_GettyImages-1406446309-Converted-1.jpg",
+      "categories": [
+        "Regulation"
+      ]
+    },
+    {
+      "title": "United Methodist Church unit scrutinizes defense tech in PE GP search",
+      "url": "https://www.privateequityinternational.com/united-methodist-church-unit-scrutinizes-defense-tech-in-pe-gp-search/",
+      "date": "November 24, 2026",
+      "readTime": "3 min read",
+      "description": "Jake Barnett, an MD of sustainable investment strategies at a unit of the $28bn investor, says it wants to be thoughtful about the evolution of defense spending.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/1100x619_Jake-Barnett_RI_Banner.jpg",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
+    {
+      "title": "Sheridan lays out deployment plans for $1.1bn flagship, $245m healthcare IT funds",
+      "url": "https://www.privateequityinternational.com/sheridan-lays-out-deployment-plans-for-1-1bn-flagship-245m-healthcare-it-funds/",
+      "date": "November 24, 2026",
+      "readTime": "5 min read",
+      "description": "Sheridan aims to make its first investment from its fourth small-cap healthcare buyouts fund by the end of 2026.",
+      "thumbnail": null,
+      "categories": [
+        "Healthcare"
+      ]
+    },
+    {
+      "title": "Aussie GP Fortitude closes debut fund above hard-cap",
+      "url": "https://www.privateequityinternational.com/aussie-gp-fortitude-closes-debut-fund-above-hard-cap/",
+      "date": "November 24, 2026",
+      "readTime": "2 min read",
+      "description": "Fortitude’s first fund raised most of its capital from Asian institutional investors, with around 20% coming from family office and HNW channels.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/GettyImages-1909509889.jpg",
+      "categories": [
+        "Fundraising"
       ]
     },
     {
@@ -178,50 +222,6 @@
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/AlexMerzPhoto-IPAAltsGlobalLondonHighlights-88_websize.jpg",
       "categories": [
         "Investors"
-      ]
-    },
-    {
-      "title": "Thoma Bravo establishes first APAC office in Hong Kong",
-      "url": "https://www.privateequityinternational.com/thoma-bravo-establishes-first-apac-office-in-hong-kong/",
-      "date": "November 17, 2026",
-      "readTime": "2 min read",
-      "description": "The tech giant already employs four staff in Hong Kong, mostly focused on investor relations.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/GettyImages-1265912285_edited.jpg",
-      "categories": [
-        "News & Analysis"
-      ]
-    },
-    {
-      "title": "Side Letter: Pay-to-play peril",
-      "url": "https://www.privateequityinternational.com/side-letter-pay-to-play-peril/",
-      "date": "November 16, 2026",
-      "readTime": "2 min read",
-      "description": "More regulatory freedom could leave managers at risk from pay-to-play pitfalls.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_GettyImages-2084874005-Converted.jpg",
-      "categories": [
-        "Regulation"
-      ]
-    },
-    {
-      "title": "ILPA’s Choi: 'Retail' push raises exit management questions",
-      "url": "https://www.privateequityinternational.com/ilpas-choi-retail-push-raises-exit-management-questions/",
-      "date": "November 16, 2026",
-      "readTime": "2 min read",
-      "description": "Institutional LPs could have concerns over investment horizons, fund size caps and co-investment allocations, according to ILPA’s CEO.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2025/03/1000x600_nexus_choi-J.jpg",
-      "categories": [
-        "Democratisation"
-      ]
-    },
-    {
-      "title": "Mubadala: AI an 'incredible opportunity' for consumer PE",
-      "url": "https://www.privateequityinternational.com/mubadala-ai-an-incredible-opportunity-for-consumer-pe/",
-      "date": "November 16, 2026",
-      "readTime": "3 min read",
-      "description": "The sovereign wealth fund's recent acquisition of Chinese coffee giant Luckin is 'where the rubber has really hit the road,' consumer head Andrew Wang tells PEI Private Equity.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/NEW-OBX-HEADSHOT-IMAGE-TEMPLATE_13.jpg",
-      "categories": [
-        "News & Analysis"
       ]
     }
   ]
