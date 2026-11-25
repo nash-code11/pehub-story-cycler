@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T04:23:00+00:00",
+  "updated": "2026-11-25T14:43:00+00:00",
   "source": "https://www.privateequityinternational.com/private-equity/news-analysis/",
   "stories": [
     {
@@ -11,6 +11,50 @@
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/STONE_bruce_k_lee_1024-copy.jpg",
       "categories": [
         "News & Analysis"
+      ]
+    },
+    {
+      "title": "Siris’ Frank Baker sees tech-enabled services opportunity with new firm October",
+      "url": "https://www.privateequityinternational.com/octobers-frank-baker-leads-new-firm-focused-on-services-businesses-that-help/",
+      "date": "November 25, 2026",
+      "readTime": "4 min read",
+      "description": "Baker will stay on with Siris, managing its existing funds and portfolio, while Siris’ latest fund, Siris Partners V, has rebranded as October Capital Fund I.",
+      "thumbnail": null,
+      "categories": [
+        "Business services"
+      ]
+    },
+    {
+      "title": "Side Letter: LAFPP's 'terrific' distributions",
+      "url": "https://www.privateequityinternational.com/side-letter-lafpps-terrific-distributions/",
+      "date": "November 25, 2026",
+      "readTime": "2 min read",
+      "description": "Why mid-market buyout managers may be making a non-emergency call to Los Angeles Fire & Police Pension System, and a departure from Vance Street.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_550x300-gettyimages-467189383.jpg",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
+    {
+      "title": "LAFPP ups PE pacing amid strong distributions",
+      "url": "https://www.privateequityinternational.com/lafpp-ups-pe-pacing-amid-strong-distributions/",
+      "date": "November 25, 2026",
+      "readTime": "2 min read",
+      "description": "The pension's portfolio has been cashflow-positive each of the last three years at a time when LPs are bemoaning a lack of distributions.",
+      "thumbnail": null,
+      "categories": [
+        "Investors"
+      ]
+    },
+    {
+      "title": "Vance Street targets $1.25bn for Fund V as co-founder steps back",
+      "url": "https://www.privateequityinternational.com/vance-street-targets-1-25bn-for-fund-v-as-co-founder-steps-back/",
+      "date": "November 25, 2026",
+      "readTime": "2 min read",
+      "description": "The fund is about 61% larger than the predecessor, which closed on its $775m hard-cap in 2024.",
+      "thumbnail": null,
+      "categories": [
+        "Fundraising"
       ]
     },
     {
@@ -178,50 +222,6 @@
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_GettyImages-2172307079-Converted.jpg",
       "categories": [
         "PEI Group Data"
-      ]
-    },
-    {
-      "title": "Charlesbank’s former CEO, current managing partner emeritus, resigns",
-      "url": "https://www.privateequityinternational.com/charlesbanks-former-ceo-current-managing-partner-emeritus-resigns/",
-      "date": "November 18, 2026",
-      "readTime": "2 min read",
-      "description": "The leadership shift is happening as the mid-market firm seeks to raise its 11th fund, targeting $4bn.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2025/06/Mike-Choe.jpg",
-      "categories": [
-        "Exclusive"
-      ]
-    },
-    {
-      "title": "Aus performance test to include first alts benchmark",
-      "url": "https://www.privateequityinternational.com/aus-performance-test-to-include-first-alts-benchmark/",
-      "date": "November 18, 2026",
-      "readTime": "3 min read",
-      "description": "Treasurer Jim Chalmers unveiled a CPI-plus benchmark for ‘emerging assets,’ which could unlock further superfund investment in PE, VC and other unlisted asset classes.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/Image-5.jpeg",
-      "categories": [
-        "Regulation"
-      ]
-    },
-    {
-      "title": "Side Letter: Anthropic acid test",
-      "url": "https://www.privateequityinternational.com/side-letter-anthropic-acid-test/",
-      "date": "November 17, 2026",
-      "readTime": "3 min read",
-      "description": "Anthropic's IPO could help validate aggressive marks; one of the world's busiest bourses seeks to further bolster its exit appeal.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_GettyImages-1412673133-Converted-1.jpg",
-      "categories": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Alecta, Schroders weigh defense funds and risks",
-      "url": "https://www.privateequityinternational.com/alecta-schroders-weigh-defense-funds-and-risks/",
-      "date": "November 17, 2026",
-      "readTime": "5 min read",
-      "description": "Sweden’s biggest pension scheme and a large British asset manager are among those cautiously eyeing private equity strategies in defense and security.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/10/Soldiers_GI_8143669121280x720.jpg",
-      "categories": [
-        "Investors"
       ]
     }
   ]
