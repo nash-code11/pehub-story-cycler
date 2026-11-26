@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T05:14:20+00:00",
+  "updated": "2026-11-26T15:30:43+00:00",
   "source": "https://www.privateequityinternational.com/private-equity/news-analysis/",
   "stories": [
     {
@@ -9,6 +9,50 @@
       "readTime": "3 min read",
       "description": "The $2.5bn multi-family office has shied away from private equity’s mega-funds due to valuation and liquidity concerns, CEO Bruce K Lee tells PEI Private Equity.",
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/STONE_bruce_k_lee_1024-copy.jpg",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
+    {
+      "title": "Side Letter: CalPERS' Cashion on climate",
+      "url": "https://www.privateequityinternational.com/side-letter-calpers-cashion-on-climate/",
+      "date": "November 26, 2026",
+      "readTime": "3 min read",
+      "description": "Wishing our US readers a happy Thanksgiving. Here’s news on the US's largest public pension and alpha producers to read between helpings.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_sideletter.jpg",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
+    {
+      "title": "Federated Hermes sees higher PE returns from fee-paying co-invests",
+      "url": "https://www.privateequityinternational.com/federated-hermes-sees-higher-pe-returns-from-fee-paying-co-invests/",
+      "date": "November 26, 2026",
+      "readTime": "4 min read",
+      "description": "The asset manager expects to see more investors taking a deal-by-deal approach, according to private equity CIO Brooks Harrington.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/1100x619_550x300-Brooks-harrington-federated-hermes.jpg",
+      "categories": [
+        "Investors"
+      ]
+    },
+    {
+      "title": "The LPs setting the pace in private equity",
+      "url": "https://www.privateequityinternational.com/the-lps-setting-the-pace-in-private-equity/",
+      "date": "November 26, 2026",
+      "readTime": "2 min read",
+      "description": "A small group of institutions including Texas TRS and New York State Common have led private equity commitment activity since 2024, PEI Group data shows.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/most-active-lps-e1795692756692.jpg",
+      "categories": [
+        "Investors"
+      ]
+    },
+    {
+      "title": "Independent sponsors come of age: What’s driving the next phase of growth?",
+      "url": "https://www.privateequityinternational.com/independent-sponsors-come-of-age-whats-driving-the-next-phase-of-growth-2/",
+      "date": "November 26, 2026",
+      "readTime": "4 min read",
+      "description": "Many experienced PE professionals are seeking an alternative to traditional fund structures, while investors are becoming more open to deal-by-deal opportunities, writes Karl Adam, a partner at Monument Group.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/GettyImages-2190217190.jpg",
       "categories": [
         "News & Analysis"
       ]
@@ -177,51 +221,6 @@
       "thumbnail": null,
       "categories": [
         "Fundraising"
-      ]
-    },
-    {
-      "title": "Side Letter: CV red flags",
-      "url": "https://www.privateequityinternational.com/side-letter-cv-red-flags/",
-      "date": "November 19, 2026",
-      "readTime": "2 min read",
-      "description": "The implications for a poorly handled continuation fund can extend well beyond the transaction itself.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_gettyimages-2149953739.jpg",
-      "categories": [
-        "Alignment of Interest"
-      ]
-    },
-    {
-      "title": "Fundraising time on the road: The strategies and regions leading the pack",
-      "url": "https://www.privateequityinternational.com/fundraising-time-on-the-road-the-strategies-and-regions-leading-the-pack/",
-      "date": "November 19, 2026",
-      "readTime": "2 min read",
-      "description": "Fundraising timelines are coming down for most strategies, though secondaries and larger vehicles have yet to return to pre-2023 levels.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/Average-TOR-2026-11-17.png",
-      "categories": [
-        "Fundraising"
-      ]
-    },
-    {
-      "title": "Soundcore preps for Q1 launch of Fund IV with $500m target",
-      "url": "https://www.privateequityinternational.com/soundcore-preps-for-q1-launch-of-fund-iv-with-500m-target/",
-      "date": "November 19, 2026",
-      "readTime": "2 min read",
-      "description": "Plans for the new fund come less than a year after Soundcore wrapped up capital raising for its $450m predecessor.",
-      "thumbnail": null,
-      "categories": [
-        "Exclusive",
-        "Fundraising"
-      ]
-    },
-    {
-      "title": "Side Letter: Rainmakers beware",
-      "url": "https://www.privateequityinternational.com/side-letter-rainmakers-beware/",
-      "date": "November 18, 2026",
-      "readTime": "2 min read",
-      "description": "LPs are heading into 2027 with diminished appetite for private equity.",
-      "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/550x300_GettyImages-2172307079-Converted.jpg",
-      "categories": [
-        "PEI Group Data"
       ]
     }
   ]
