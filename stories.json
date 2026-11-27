@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T15:30:43+00:00",
+  "updated": "2026-11-27T00:09:32+00:00",
   "source": "https://www.privateequityinternational.com/private-equity/news-analysis/",
   "stories": [
     {
@@ -11,6 +11,28 @@
       "thumbnail": "https://media.privateequityinternational.com/uploads/2026/11/STONE_bruce_k_lee_1024-copy.jpg",
       "categories": [
         "News & Analysis"
+      ]
+    },
+    {
+      "title": "The value-add in employee ownership",
+      "url": "https://www.privateequityinternational.com/the-value-add-in-employee-ownership/",
+      "date": "November 26, 2026",
+      "readTime": "3 min read",
+      "description": "Data shared exclusively with PEI Private Equity by industry body Ownership Works shows improvements in key business metrics when stock ownership plans are implemented.",
+      "thumbnail": "https://media.privateequityinternational.com/uploads/2025/12/GettyImages-1468132593.jpg",
+      "categories": [
+        "News & Analysis"
+      ]
+    },
+    {
+      "title": "Godspeed Capital targets $1bn for Fund IV, its fourth in five years",
+      "url": "https://www.privateequityinternational.com/godspeed-capital-targets-1bn-for-fund-iv-its-fourth-in-five-years/",
+      "date": "November 26, 2026",
+      "readTime": "2 min read",
+      "description": "Beyond defense and government services, the lower-mid-market GP is expanding its investments into ecological restoration and environmental consulting.",
+      "thumbnail": null,
+      "categories": [
+        "Fundraising"
       ]
     },
     {
@@ -199,28 +221,6 @@
       "categories": [
         "Exclusive",
         "Deals"
-      ]
-    },
-    {
-      "title": "Orange County to double down on co-invest following directs success",
-      "url": "https://www.privateequityinternational.com/orange-county-to-double-down-on-co-invest-following-directs-success/",
-      "date": "November 19, 2026",
-      "readTime": "3 min read",
-      "description": "The pension's private equity portfolio delivered a 41.3% net IRR this year following SpaceX's IPO.",
-      "thumbnail": null,
-      "categories": [
-        "Investors"
-      ]
-    },
-    {
-      "title": "EnCap Flatrock targets $1.5bn for sixth midstream fund",
-      "url": "https://www.privateequityinternational.com/encap-flatrock-targets-1-5bn-for-sixth-midstream-fund/",
-      "date": "November 19, 2026",
-      "readTime": "2 min read",
-      "description": "The firm previously raised larger midstream funds, including Fund IV, which closed on $3.25bn in 2018.",
-      "thumbnail": null,
-      "categories": [
-        "Fundraising"
       ]
     }
   ]
